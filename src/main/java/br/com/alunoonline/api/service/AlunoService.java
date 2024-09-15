@@ -30,7 +30,7 @@ public class AlunoService {
         alunoRepository.deleteById(id);
     }
 
-    // Novo método para atualizar aluno
+    // Novo método para atualizar aluno - teste
 //    public Aluno atualizarAluno(Long id, Aluno alunoAtualizado) {
 //        Optional<Aluno> alunoExistente = alunoRepository.findById(id);
 //
