@@ -15,7 +15,7 @@ public class MatriculaAlunoController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void criarMatriculo(@RequestBody MatriculaAluno matriculaAluno){
+    public void criarMatricula(@RequestBody MatriculaAluno matriculaAluno){
         matriculaAlunoService.criarMatricula(matriculaAluno);
     }
 
